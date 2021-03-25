@@ -1,0 +1,96 @@
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    color:white;
+  }
+  
+  td, th {
+    border: 1px solid black;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color:rgb(137, 17, 250);
+  }
+  h1{
+    color:white;
+    font-size:45px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+  h2{
+      color:rgb(14, 200, 14);
+      font-size:40px;
+      text-align: center;
+      margin-left: auto;
+      margin-right: auto;
+  }
+  h3{
+      font-size:30px;
+      color:white;
+  }
+  h4{
+    font-size:28px;
+    color:white;
+  }
+  p{
+    font-size:18px;
+    color:white;
+  }
+  li{
+    font-size:20px;
+    color:white;
+  }
+  footer { 
+    position: left; 
+    clear: both; 
+    text-align:center; 
+    color: solid black;
+    background-color: rgba(120, 6, 251, 0.541);
+    height: 255px;	 
+    line-height: 30px; 
+    margin-left:-100%; 
+    margin-right:-100%; 
+  } 
+  .program{
+    padding: 70px;
+  }
+  body{
+    background: url(https://i.pinimg.com/originals/c4/d2/c6/c4d2c62733c969f19c7d49a7d9f39bcd.jpg) no-repeat;
+    background-size: cover;
+  }
+  .btn {
+    cursor: pointer;
+    background-color: rgba(120, 6, 251, 0.541);
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition: 0.3s;
+  }
+  
+  .btn:hover {
+    background-color: rgb(14, 200, 14);
+    color: white;
+  }
+  
+  .blogs {
+    cursor: pointer;
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 12px;
+    margin: 4px 2px;
+    transition: 0.3s;
+  }
+  .blogs:hover {
+    background-color: rgb(18, 20, 18);
+    color: white;
+  }
