@@ -1,22 +1,42 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8">
     <title>Jai Gora</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="script.js"></script>
 </head>
+
 <body>
+    <div class="topnav" id="myTopnav">
+        <a href="#about">About</a>
+        <a href="#education">Education</a>
+        <a href="#experience">Experience</a>
+        <a href="#technicalskills">Tech Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#achievemnets">Achievements</a>
+        <a href="#contact">Contact</a>
+        <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+      </div>
     <header>
         <img style="width: 25%;"src="https://pbs.twimg.com/profile_images/1360092323565113345/QTk9Yx9X_400x400.jpg"><br>
         <h1>Jai Gora</h1>
-        <p style="text-align:center"><b>Engineering Student | Programmer | Open Source Contributor</b></p>
+        <p class="line"style="text-align:center"><b>Engineering Student | Programmer | Open Source Contributor</b></p>
+        <!--<br><button class='btn' id="CV"><b>Download CV</b></button>-->
     </header>
     <div class="program">
+        <div id='about'><br>
         <h2>About me</h2>
-        <p><b>Currently pursuing Bachelor of Technology from Shri Mata Vaishno Devi University, Katra (India). I am passionate about exploring & learning new technologies & posses the ability to handle work pressure. I like to work with different teams to understand the different points of views. I have strong background in Java, Python, Data Structures, Algorithms, Amazon Web Services (AWS).</b></p>
+        <p><b>Currently pursuing Bachelor of Technology from Shri Mata Vaishno Devi University, Katra (India). I am
+                passionate about exploring & learning new technologies & posses the ability to handle work pressure. I
+                like to work with different teams to understand the different points of views. I have strong background
+                in Java, Python, Data Structures, Algorithms, Amazon Web Services (AWS).</b></p>
+        </div>
         
+        <div id='education'><br>
         <h2>Education</h2>
         <h4><b>Shri Mata Vaishno Devi University, Katra (India)</b></h4>
         <p>Bachelor of Technology - BTech, Electronics & Communcation Engineering</p>
@@ -27,57 +47,116 @@
         <h4>Shri Baba Mastnath Public School, Rohtak (India)</h4>
         <p>Secondary School</p>
         <p><i>(2011 - 2017)</i></p>
+        </div>
         
+        <div id='experience'><br>
         <h2>Experience</h2>
         <h4><b>Technical Intern, Dyeleaf</b></h4>
-        <p><i>(July 2020 - present)</i></p>
+        <p><i>(July 2020 - Nov 2020)</i></p>
         <h4><b>Social Media Marketing Intern, HSWS</b></h4>
         <p><i>(8th Jul 2020 - 22nd Jul 2020)</i></p>
         <h4><b>Campus Ambassador, Play & Shine Foundation</b></h4>
         <p><i>(June 2020 - July 2020)</i></p>
-        
+        </div>
+
+        <div id='technicalskills'><br>
         <h2>Technical Skills</h2>
         <table>
-            <tr><th>Languages</th>
-                <td>Java<i> (proficient)</i>, Python, C</td></tr>
-            <tr><th>Data Markup Standards</th>
-                <td>HTML5, CSS3</td></tr>
-            <tr><th>IT Constructs</th>
-                <td>OOPS, DBMS, Data Structures & Algorithms</td></tr>
-            <tr><th>Development Tools</th>
-                <td>Eclipse, VS Code</td></tr>
-            <tr><th>Libraries</th>
-                <td>jQuery</td></tr>
-        </table><br>
-        
+            <tr>
+                <th>Languages</th>
+                <td>Java<i> (proficient)</i>, Python</td>
+            </tr>
+            <tr>
+                <th>Data Markup Standards</th>
+                <td>HTML5, CSS3</td>
+            </tr>
+            <tr>
+                <th>IT Constructs</th>
+                <td>OOPS, DBMS, Data Structures & Algorithms</td>
+            </tr>
+            <tr>
+                <th>Development Tools</th>
+                <td>Eclipse, VS Code</td>
+            </tr>
+            <tr>
+                <th>Libraries</th>
+                <td>jQuery</td>
+            </tr>
+            <tr>
+                <th>Frameworks</th>
+                <td>Spring, Hibernate</td>
+            </tr>
+        </table>
+        </div>
+        <br>
+        <div id='projects'><br>
         <h2>Projects</h2>
         <h4><b>Weather Application</b></h4>
-        <p>A web based application which shows the current weather in the city you entered.</p><p>Tech Used: HTML, CSS, jQuery, Netlify</p>
-        <button class="btn" onclick="window.location='https://weatherinmycity.netlify.app/';"><b>View Project</b></button><br>
-        <h4><b>e-Learning Website</b></h4>
-        <p>A website which provide learning resources on different languages/ technologies like C, Python, Java, C++.</p><p>Tech Used: HTML, CSS, jQuery, Netlify</p>
-        <button class="btn" onclick="window.location='https://freelearningresources.netlify.app/';"><b>View Project</b></button><br>
+        <p>A web based application which shows the current weather for the location you entered.</p>
+        <p>Tech Used: HTML, CSS, jQuery, Netlify</p>
+        <button class="btn" onclick="window.location='https://weatherinmycity.netlify.app/';"><b>View Project</b></button>
+        <br>
         <h4><b>e-Bill Generator</b></h4>
-        <p>A web based application used to make online bill & print it.</p><p>Tech Used: HTML, CSS, JavaScript, Netlify</p>
-        <button class="btn" onclick="window.location='https://ebill.netlify.app/';"><b>View Project</b></button><br>
+        <p>A web based application used to make online bill & print it.</p>
+        <p>Tech Used: HTML, CSS, JavaScript, Netlify</p>
+        <button class="btn" onclick="window.location='https://ebill.netlify.app/';"><b>View Project</b></button>
+        <br>
+        <h4><b>e-Learning Website</b></h4>
+        <p>A website which provide learning resources on different languages/ technologies like C, Python, Java, C++.
+        </p>
+        <p>Tech Used: HTML, CSS, jQuery, Netlify</p>
+        <button class="btn" onclick="window.location='https://freelearningresources.netlify.app/';"><b>View
+                Project</b></button>
+        <br>
+        <h4><b>Calculator</b></h4>
+        <p>A web application used to perform the calculations of numbers.</p>
+        <p>Tech Used: HTML, CSS, JavaScript</p>
+        <p>Deployment Tool: Netlify</p>
+        <button class="btn" onclick="window.location='https://bestonlinecalculator.netlify.app/';"><b>View
+                Project</b></button>
+        </div>
+
+        <div id="achievemnets"><br>
         <h2>Achievements</h2>
-        <ul><li>#2 in "Bridge Building" at techfest (Titiksha)</li><li>5⭐ in Python at HackerRank</li><li>4⭐ in Java programming at HackerRank</li><li>3⭐ in C programming at HackerRank</li></ul>
+        <ul>
+            <li>#2 in "Bridge Building" at techfest (Titiksha)</li>
+            <li>5⭐ in Python at HackerRank</li>
+            <li>4⭐ in Java programming at HackerRank</li>
+            <li>3⭐ in C programming at HackerRank</li>
+        </ul>
+        </div>
 
         <h2>Interests</h2>
-        <ul><li>Travelling</li><li>Coding</li><li>Photgraphy</li><li>Playing Games</li><li>Listening Music</li></ul>
+        <ul>
+            <li>Travelling</li>
+            <li>Coding</li>
+            <li>Photgraphy</li>
+            <li>Playing Games</li>
+            <li>Listening Music</li>
+        </ul>
     </div>
+    <div id='contact'>
     <footer>
-        <h3 style="color: black;"><b>Get In Touch</b></h3>
+        <h3 style="color: black;"><b>Contact me</b></h3>
         <a href="mailto:jaigora24@gmail.com" style="color:black;">
             <img src="https://image.flaticon.com/icons/png/512/60/60543.png" alt="Gmail" title="Gmail" width="25"
-                height="25" />&nbsp;<b>jaigora24@gmail.com</b></a><br><br><br>
+                height="25" />&nbsp;<b>jaigora24@gmail.com</b>
+
+        </a>
+        <br><br><br>
+        
         <a href="https://www.linkedin.com/in/jai-gora-893343194/" class="fa fa-linkedin"></a>
         <a href="https://github.com/jaigora24" class="fa fa-github"></a>
         <a href="https://twitter.com/jaigora24/" class="fa fa-twitter"></a>
         <a href="https://www.instagram.com/jaigora24/" class="fa fa-instagram"></a>
         <a href="https://www.facebook.com/people/Jai-Gora/100022377992537/" class="fa fa-facebook"></a>
-        <a href="https://www.youtube.com/channel/UCD0I65vEOMz7iO1As-KXwNw?view_as=subscriber" class="fa fa-youtube"></a><br><br><br>
+        <a href="https://www.youtube.com/channel/UCD0I65vEOMz7iO1As-KXwNw?view_as=subscriber" class="fa fa-youtube"></a>
+
+        <br><br><br>
         <button class="blogs" onclick="window.location='https://jaigora24.blogspot.com/';"><b>Read my blogs</b></button>
     </footer>
+    </div>
+    <br>
+    <h5><b>Copyright © 2021 Jai Gora - All Rights Reserved.</b></h5>
 </body>
 </html>
