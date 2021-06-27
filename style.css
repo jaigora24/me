@@ -19,7 +19,7 @@ h2{
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    color: rgb(246, 233, 41);}
+    color: rgb(251, 236, 22);}
 h3{
     font-size:45px;
     color:rgb(255, 255, 255);}
@@ -55,7 +55,7 @@ body{
   border-radius: 25px;
   border: 1px solid white;}
 .btn:hover {
-  background-color: rgb(246, 233, 41);
+  background-color: rgb(251, 236, 22);
   color: rgb(0, 0, 0);
   border: 1px solid black;}
 .blogs {
