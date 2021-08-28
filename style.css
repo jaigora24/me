@@ -110,9 +110,6 @@ header{
 p{font-size: 20px;}
 footer { 
   padding: 25px;
-  position:absolute;
-  bottom:0;
-  width:100%;
   text-align:center; 
   color: solid black;
   background-color: rgb(160, 160, 160);
