@@ -4,6 +4,11 @@ table {font-family: arial, sans-serif;
   color:rgb(255, 255, 255);
   margin-left: auto;
   margin-right: auto;}
+@media screen and (max-width: 540px) {
+  table {
+      width: 100%;
+  }
+}
 td, th {border: 1px solid black;
   text-align: left;
   padding: 8px;}
