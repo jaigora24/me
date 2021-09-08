@@ -9,6 +9,14 @@ table {font-family: arial, sans-serif;
       width: 100%;
   }
 }
+.myimage{
+  width: 25%;
+}
+@media screen and (max-width: 540px) {
+  .myimage {
+      width: 85%;
+  }
+}
 td, th {border: 1px solid black;
   text-align: left;
   padding: 8px;}
