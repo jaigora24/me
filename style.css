@@ -14,7 +14,7 @@ table {font-family: arial, sans-serif;
 }
 @media screen and (max-width: 540px) {
   .myimage {
-      width: 85%;
+      width: 65%;
   }
 }
 td, th {border: 1px solid black;
